@@ -1,0 +1,177 @@
+body, div, p, h1, h2, input, a, span, img {
+    margin: 0;
+    padding: 0;
+    font-size:100%
+}
+
+body {
+    background-color: #e2e0e0;
+}
+
+/* Center Alignment in Div*/
+#alignerDiv {
+    display: flex;
+    justify-content: center;
+}
+
+/*Settings for mainComment & subDiv's within it (alignment, spacing, font, etc.)*/
+#mainComment {
+    position: fixed;
+    display: flex;
+    width: 1000px;
+    flex-flow: column nowrap;
+    background-color: #ffffff;
+}
+#mainComment p {
+    color: rgb(95, 94, 94);
+    margin-left: 18px;
+    font-family: "Roboto";
+}
+
+#mainComment h1 {
+    font-size: 35px;
+    margin-left: 18px;
+    font-family: "Raleway";
+}
+
+/*CommentList Start & Subdivs of CommentList*/
+#commentList {
+    display:flex;
+    flex-flow: column-reverse wrap;
+    width: 1000px;
+    height: auto;
+    background-color: #a5a1a1;
+}
+
+/*Comment Display Div (Display Name, Comment, etc)*/
+.commentBox:first-child {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 160px;
+    width: 950px;
+    background-color: #ffffff;
+    align-content: center;
+}
+.commentBox{
+    margin: 10px auto;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 160px;
+    width: 950px;
+    background-color: #ffffff;
+    align-content: center
+}
+
+.CommUser {
+    align-self: center;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 670px;
+    height: 120px;
+    margin-left: 10px;
+}
+
+/*individual statements for username and comment under CommUser*/
+.user{
+    font-family: "Roboto";
+    color: #a39f9f;
+    margin-bottom: 5px;
+}
+
+.usComm {
+    font-family: "Raleway";
+    font-size: 35px;
+}
+
+/*edit/delete buttons*/
+.edit-delete {
+    float:right;
+    display:flex;
+    flex-direction: row nowrap;
+    margin-top: 10px;
+    align-self:flex-start;
+    color:#2d9fc5;
+    font-family: "Raleway";
+}
+
+.userEdit {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.userDelete {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Edit Mode Div & Submit button */
+#editMode {
+    display: none;
+}
+
+.editedContent {
+    height: 20px;
+    font-family: "Raleway";
+    font-size: 15px;
+}
+
+.editModeActive {
+    display: flex;
+    flex-direction: row nowrap;
+    width: 300px;
+    height: 50px;
+    font-size: 15px;
+    text-align: center;
+}
+
+/*Submit Button for Edits*/
+#editSubmit {
+    font-size: 18px;
+    color:#2d9fc5;
+    font-family: "Raleway";
+    cursor: pointer;
+}
+
+/*settings for commentEnter Div*/
+#commentEnter {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    margin-top: 830px;
+    background-color: #ffffff;
+    width: 1000px;
+    height: 100px;
+}
+
+#commentEnter input {
+    height:20px;
+}
+
+
+
+/* Settings for username, comment, and submit button*/
+.userInputN {
+    margin: 10px;
+    font-family: "Roboto";
+}
+
+.userComment {
+    width: 550px;
+    margin-right: 10px;
+    font-family: "Raleway";
+}
+
+#submit {
+    font-size: 18px;
+    color:#2d9fc5;
+    font-family: "Raleway";
+    cursor: pointer;
+}
+
+
+
+
+
+
+

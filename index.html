@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Comments</title>
+        <link rel="stylesheet" href="main.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap');
+        </style> 
+    </head>
+    <body>
+        <div id = "alignerDiv">
+            <!--Main Comment, will be positioned absolute in CSS-->
+            <div id = "mainComment">
+                <p>WhySoSerious45</p>
+                <h1>Trying to decide a career path? Programming is the move. Change my mind.</h1>
+            </div>
+            <div id = "commentList">
+                <div class = "commentBox">
+                    <img src="profile-test.png">
+                    <div class = "CommUser">
+                        <p class = "user">TestName</p>
+                        <h2 class = "usComm">Testing, this is a comment</p>
+                        <div id = "editMode">
+                            <span><input type = text class = "editedContent"> <p id = "editSubmit">Submit</p> </span>  
+                        </div>
+                    </div>
+                    <div class = "edit-delete">
+                        <p><span class="userEdit">Edit</span> <span class="userDelete">Delete</span></p>
+                    </div>
+                </div>
+            </div>
+            <!--Comment bar, will be positioned absolute in CSS-->
+            <div id = "commentEnter">
+                <input type="text" class = "userInputN" placeholder="Display Name">
+                <input type="text" class = "userComment" placeholder="Comment">
+                <p id="submit">Submit</p>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
